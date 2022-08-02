@@ -1,0 +1,44 @@
+.result {
+  height: 100px;
+  background-color: lightblue;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 600px;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  /* background-color: blue; */
+  margin: 2px;
+  border: none;
+  outline: none;
+}
+
+button {
+  width: 20%;
+  height: 60px;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  margin: 2px;
+  border-radius: 9px;
+  background-color: rgb(111, 111, 176);
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(238, 238, 238);
+  transition: 0.3s;
+  cursor: pointer;
+  color: black;
+}
